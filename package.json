@@ -6,16 +6,22 @@
     "start": "node ./bin/www"
   },
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": " git@github.com:Rachel91649/auth-practice.git"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.15.5",
+    "express-session": "^1.15.6",
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
-    "serve-favicon": "~2.4.5"
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg-promise": "^8.1.1",
+    "serve-favicon": "~2.4.5",
+    "supervisor": "^0.12.0"
   }
 }
